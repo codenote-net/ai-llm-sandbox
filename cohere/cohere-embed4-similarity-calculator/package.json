@@ -1,0 +1,24 @@
+{
+  "name": "cohere-embed4-similarity-calculator",
+  "version": "0.0.1",
+  "description": "Image-text similarity calculation tool using Cohere Embed v4.0",
+  "main": "simple-similarity.js",
+  "type": "module",
+  "scripts": {
+    "start": "node simple-similarity.js",
+    "similarity": "node simple-similarity.js",
+    "validate": "node validate-embeddings.js"
+  },
+  "engines": {
+    "node": "24.8.0"
+  },
+  "keywords": [
+    "cohere",
+    "embedding"
+  ],
+  "dependencies": {
+    "cohere-ai": "7.18.1",
+    "dotenv": "17.2.2",
+    "sharp": "0.34.3"
+  }
+}
